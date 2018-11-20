@@ -1,0 +1,29 @@
+{
+  "name": "mediatheque",
+  "version": "1.0.0",
+  "description": "une mediatheque en js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -p --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teaching-mnicolas/2018-lp-ciasie-prog-web-td5-QuentinRimet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teaching-mnicolas/2018-lp-ciasie-prog-web-td5-QuentinRimet/issues"
+  },
+  "homepage": "https://github.com/teaching-mnicolas/2018-lp-ciasie-prog-web-td5-QuentinRimet#readme",
+  "devDependencies": {
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
